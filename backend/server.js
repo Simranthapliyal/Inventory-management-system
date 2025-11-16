@@ -10,7 +10,7 @@ app.use(express.json());
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Saurav@5556', 
+  password: '', 
   database: 'inventory_db'
 });
 
@@ -91,3 +91,4 @@ app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
   console.log('Make sure MySQL database is running and inventory_db database exists');
 });
+
