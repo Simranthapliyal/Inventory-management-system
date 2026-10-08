@@ -34,10 +34,11 @@ Inventory-Management-System/
 │   └── js/
 │
 ├── backend/
-│   └── ...
+│   └── CRUD Operations 
+│   └── REST API
 │
 ├── database/
-│   └── ...
+│   └── mysql
 │
 └── README.md
 
